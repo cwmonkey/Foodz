@@ -1,6 +1,8 @@
 <?php
 
 class controller_list extends controller__site {
+	public $requires_login = false;
+
 	public function action_show($request) {
 		$view = new view__site();
 
